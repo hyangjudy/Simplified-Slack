@@ -1,7 +1,19 @@
-## Simplified-Slack
+# Simplified-Slack
 
 ---
-### Features:
+## Project discription
+
+<p align="center"> 
+<img src="https://github.com/hyangjudy/Simplified-Slack/blob/master/gifs/architecture.jpg" alt="Project architecuture">
+</p>
+
++ Designed RESTful APIs to handle requests like authenticating users, retrieving channels and messages, creating new channels and messages, and resetting a lost password using Python Flask
++ Used MySQL Workbench for the database and executed various database queries from Python using Python-MySQL connector
++ Built a single page web application with React.JS and React-Routes 
+
+
+---
+## Features:
 1. A user can register for the the app:
 ![Register Demo](https://github.com/hyangjudy/Simplified-Slack/blob/master/gifs/register.gif)
 
@@ -19,7 +31,7 @@
 
 ---
 
-### How to run:
+## How to run:
 
 1. Install the python dependencies by running `pip install -r requirements.txt`
 
@@ -54,13 +66,13 @@
 
     `mysql -u <your_database_user_name> -p your_database_database_name < 20200308T140900-create_tables.sql`
 
-4. Run ` FLASK_DEBUG=1 flask run ` to start the server
+4. Run ` FLASK_APP=app.py FLASK_DEBUG=1 flask run ` to start the server
 
 5. Go to `http://127.0.0.1:5000/` to play with the app
 
 ---
 
-### Folder Structure
+## Folder Structure
 ```
 final_project/
 ├── .gitignore
@@ -126,6 +138,7 @@ final_project/
 └── templates/
     └── 404.html
 ```
+
 | File/Folder | Details |
 | ---- | ---- |
 | app.py | the Flask server |
@@ -136,20 +149,18 @@ final_project/
 | sql | contains sql to create databases and tables |
 | static | the single-page React app (created by `npm run build`) |
 | templates | contains error handling pages |
-
-
 ---
 
-### Reference:
+## Reference:
 
-#### Fonts:
-* [Rubik](https://fonts.googleapis.com/css?family=Rubik&display=swap)
-* [Roboto](https://fonts.googleapis.com/css?family=Roboto&display=swap)
+1. Fonts:
+    * [Rubik](https://fonts.googleapis.com/css?family=Rubik&display=swap)
+    * [Roboto](https://fonts.googleapis.com/css?family=Roboto&display=swap)
 
-#### Web page design:
-* [Slack](https://slack.com)
+2. Web page design:
+    * [Slack](https://slack.com)
 
-#### Refers to:
-* [react-flask-mysql-login-reg](https://github.com/ArjunAranetaCodes/MoreCodes-Youtube/tree/master/react-flask-mysql-login-reg)
-* [Add Delete Components Dynamically in React](https://www.youtube.com/watch?v=ivM4Yfks_sk)
-* [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
+3. Refers to:
+    * [react-flask-mysql-login-reg](https://github.com/ArjunAranetaCodes/MoreCodes-Youtube/tree/master/react-flask-mysql-login-reg)
+    * [Add Delete Components Dynamically in React](https://www.youtube.com/watch?v=ivM4Yfks_sk)
+    * [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
