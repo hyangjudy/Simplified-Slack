@@ -1,6 +1,23 @@
 ## Simplified-Slack
 
 ---
+### Features:
+1. A user can register for the the app:
+![Register Demo](https://github.com/hyangjudy/Simplified-Slack/blob/master/gifs/register.gif)
+
+2. A user can login and logout:
+![Login and logout Demo](https://github.com/hyangjudy/Simplified-Slack/blob/master/gifs/login_logout.gif)
+
+3. A user can reset a lost password:
+![Reset a lost password Demo](https://github.com/hyangjudy/Simplified-Slack/blob/master/gifs/forget_password.gif)
+
+4. A user can create a channel and post messages (or replies):
+![Create a channel and post Demo](https://github.com/hyangjudy/Simplified-Slack/blob/master/gifs/create_channel_n_post.gif)
+
+5. The server side tracks the unread messages of all users and renders a notification on the number of unread messages:
+![Unread messages Demo](https://github.com/hyangjudy/Simplified-Slack/blob/master/gifs/unread_messages.gif)
+
+---
 
 ### How to run:
 
